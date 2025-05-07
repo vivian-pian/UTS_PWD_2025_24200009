@@ -1,0 +1,66 @@
+:root{
+    --text:  #2d2d2d;
+    --biru-utama: #0046be;
+    --light-grey: #f6f8fb;
+    --dark-grey:  #6c757d; 
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text); 
+    text-align: center;
+}
+
+header{
+    background: var(--light-grey);
+    padding: 60px 20px;
+    text-align: center; 
+    border-image: 260px 120px;
+}
+
+.btn-primary{
+    background: #0046be;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer; 
+}
+
+section{
+    background: white;
+    padding: 60px 20px;
+}
+
+section p{
+    text-align: center;
+    font-size: 1rem;
+    color:#6c757d;
+}
+section h4{
+    font-size: 1rem;
+    color: #0046be;
+}
+.step{
+    border:1px solid rbg(227, 223, 223);
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.step i{
+    color:#0046be;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.activity hover{
+    transform: transLateY(-30px)
+}
